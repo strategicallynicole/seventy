@@ -24,9 +24,9 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3",
-    "@11ty/eleventy-navigation": "^0.1.4",
-    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "@11ty/eleventy": "^0.11.0",
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "@11ty/eleventy-plugin-rss": "^1.0.9",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
     "@babel/core": "^7.8.3",
     "@babel/plugin-proposal-async-generator-functions": "^7.8.3",
@@ -47,9 +47,11 @@
     "babel-preset-es2015": "^6.24.1",
     "clean-webpack-plugin": "^2.0.2",
     "css-loader": "^2.1.1",
-    "eleventy-plugin-nesting-toc": "^1.1.0",
+    "eleventy-plugin-nesting-toc": "^1.2.0",
     "express": "^4.17.1",
-    "luxon": "^1.21.3",
+    "handlebars-helper-asset": "*",
+    "html-minifier": "^4.0.0",
+    "luxon": "^1.24.1",
     "markdown-it": "^8.4.1",
     "markdown-it-anchor": "^5.2.5",
     "mini-css-extract-plugin": "^0.5.0",
@@ -68,11 +70,21 @@
     "webpack-dev-middleware": "^3.7.2",
     "webpack-merge": "^4.2.2"
   },
+  "keywords": [
+    "handlebars-helper-asset"
+  ],
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.12.0",
+    "@tryghost/content-api": "^1.4.4",
+    "ajv": "^6.12.3",
     "animate.css": "^3.7.2",
     "bootstrap": "^4.4.1",
     "browser-sync-webpack-plugin": "^2.2.2",
+    "dotenv": "^8.2.0",
+    "eleventy-plugin-lazyimages": "^2.0.1",
+    "eleventy-plugin-local-images": "^0.4.0",
+    "eleventy-plugin-reading-time": "0.0.1",
+    "grunt": "^1.2.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.0",
     "vue": "^2.6.11"

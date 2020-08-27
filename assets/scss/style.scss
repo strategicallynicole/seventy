@@ -1,0 +1,152 @@
+/* ------------------------------------------------------------ *\
+  Vendor
+\* ------------------------------------------------------------ */
+
+//@import '~vendor-name/vendor.scss/css';
+
+/* ------------------------------------------------------------ *\
+	Generic
+\* ------------------------------------------------------------ */
+
+@import 'generic/variables';
+@import 'generic/functions';
+@import 'generic/mixins';
+@import 'generic/reset';
+@import 'generic/fonts';
+@import 'generic/base';
+@import 'generic/helpers';
+
+/* ------------------------------------------------------------ *\
+	Components
+\* ------------------------------------------------------------ */
+
+@import '_sprite.css';
+@import 'components/accordion';
+@import 'components/animation';
+@import 'components/bar';
+@import 'components/block';
+@import 'components/box';
+@import 'components/box-different';
+@import 'components/btn';
+@import 'components/btn-dark';
+@import 'components/btn-round';
+@import 'components/btn-small';
+@import 'components/checkbox';
+@import 'components/checkbox-alt';
+@import 'components/checkbox-different';
+@import 'components/components';
+@import 'components/dropdown';
+@import 'components/field';
+@import 'components/footer';
+@import 'components/grid';
+@import 'components/header';
+@import 'components/icons';
+@import 'components/item';
+@import 'components/logo';
+@import 'components/main';
+@import 'components/nav-trigger';
+@import 'components/panel';
+@import 'components/pp-section';
+@import 'components/radio';
+@import 'components/radio-alt';
+@import 'components/radio-group';
+@import 'components/range-slider';
+@import 'components/range-slider-alt';
+@import 'components/section';
+@import 'components/section-about';
+@import 'components/select';
+@import 'components/shell';
+@import 'components/slider';
+@import 'components/switch';
+
+@import 'components/tab';
+@import 'components/tabs';
+@import 'components/tag';
+@import 'components/wrapper';
+@import 'components/nav';
+
+/* ------------------------------------------------------------ *\
+	Overwrites
+\* ------------------------------------------------------------ */
+
+//@import 'overwrites/';
+.hide,.cloak div,.cloak span,.likert.cloak tbody,.likert.cloak thead
+{display:none !important}
+
+button#saveForm {
+    margin-left: 10px;
+}
+
+.row {
+    margin-right: -50px !important;
+    margin-left: -50px !important;
+}
+
+.full-post-contents {
+    margin-top: 75px;
+}
+
+h1.posttitle {
+    margin: 50px;
+}
+.post-meta {
+    margin: 50px;
+}
+.author-meta {
+    margin-left: 50px;
+}
+
+button.owl-dot.active {
+	@include neumorphic;
+}
+
+
+.carousel-dots .owl-dots .owl-dot.active {
+    @include neumorphic;
+}
+
+input[type="submit"] {
+    background: #6c5ba7;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 20px !important;
+}
+
+input#mc-embedded-subscribe {
+    margin-top: 20px;
+}
+
+input#mc-embedded-subscribe {
+    margin-top: 20px !important;
+}
+
+.post-meta {
+    margin: 0 !important;
+}
+.neubtn {
+    padding: 15px !important;
+
+}
+.relative {
+    position: relative !important;
+}
+
+.swirlone {
+    background-position-x: 0;
+    background-size: 100% 100%;
+    z-index: -1;
+    opacity: .7;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    position: absolute !important;
+    background-repeat: repeat-y;
+    }
+
+    button.owl-dot.active {
+        display: none;
+    }
+
+    .featured-slider.owl-carousel .owl-nav button.disabled {
+        display: none;
+    }
